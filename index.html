@@ -1,0 +1,562 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RouteWise v3 | The Commute Intelligence Layer Cities Were Missing</title>
+  <meta
+    name="description"
+    content="RouteWise v3 is an urban mobility intelligence platform for Indian cities, combining multimodal routing, AI departure alerts, and proprietary commute data to improve daily travel for commuters, employers, and cities."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#hero" class="logo">
+        <span class="logo-mark"></span>
+        <span>RouteWise v3</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#moat">Moat</a>
+        <a href="#business">Business Model</a>
+        <a href="#cta" class="nav-cta">Join Waitlist</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#problem">Problem</a>
+      <a href="#solution">Solution</a>
+      <a href="#how">How It Works</a>
+      <a href="#moat">Moat</a>
+      <a href="#business">Business Model</a>
+      <a href="#impact">Impact</a>
+      <a href="#cta">Join Waitlist</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">Urban mobility intelligence for Indian cities</div>
+          <h1>The commute intelligence layer cities were missing.</h1>
+          <p class="hero-text">
+            RouteWise v3 helps commuters choose the smartest multimodal route,
+            predicts the right departure time, and powers employers and city
+            stakeholders with real-world commute intelligence built for India.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#cta" class="btn btn-primary">Join the Waitlist</a>
+            <a href="#solution" class="btn btn-secondary">See the Product</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-card">
+              <span class="metric-number">14M</span>
+              <span class="metric-label">Daily Bengaluru commute decisions</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-number">₹100</span>
+              <span class="metric-label">Per employee per month B2B pricing</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-number">12–18 mo</span>
+              <span class="metric-label">Data moat over generic mapping products</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-image-card">
+            <img src="routewise-hero.png" alt="RouteWise mobility app in a busy metro setting" />
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bg hero-bg-1"></div>
+      <div class="hero-bg hero-bg-2"></div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section id="problem" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">The problem</div>
+          <h2>Commuting in Indian cities is still a daily obstacle course</h2>
+          <p>
+            Urban mobility is fragmented across metro, buses, autos, walking,
+            and informal last-mile systems. Existing maps show routes, but not
+            the lived reality of Indian commutes.
+          </p>
+        </div>
+
+        <div class="problem-grid">
+          <div class="problem-story card reveal">
+            <div class="icon-circle">🚇</div>
+            <h3>The commuter pain is real</h3>
+            <p>
+              Metro timing uncertainty. Bus arrival mismatch. Auto stand chaos.
+              Last-mile unpredictability. People don’t just lose time — they
+              lose energy, reliability, and peace of mind before the workday
+              even begins.
+            </p>
+            <p class="quote">
+              “It’s not just about getting there. It’s about arriving as a
+              human, not a victim of the commute.”
+            </p>
+          </div>
+
+          <div class="problem-stats">
+            <div class="stat-box card reveal">
+              <span class="stat-value">Broken</span>
+              <span class="stat-title">Multimodal coordination</span>
+              <p>
+                Today’s commute spans 2–4 transport modes, but decisions are
+                still made using fragmented, low-context information.
+              </p>
+            </div>
+
+            <div class="stat-box card reveal">
+              <span class="stat-value">Static</span>
+              <span class="stat-title">Existing routing data</span>
+              <p>
+                Schedule-based suggestions do not capture real delays, crowding,
+                transfer friction, or local variability across Indian cities.
+              </p>
+            </div>
+
+            <div class="stat-box card reveal">
+              <span class="stat-value">High</span>
+              <span class="stat-title">Employer productivity leakage</span>
+              <p>
+                Late arrivals, uncertain commute times, and exhausted employees
+                reduce workplace readiness and overall workday productivity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section id="solution" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">The solution</div>
+          <h2>RouteWise v3 — real-time multimodal intelligence, built for India</h2>
+          <p>
+            RouteWise is not just a routing app. It is a commute intelligence
+            platform that learns how cities actually move and converts that into
+            better decisions for commuters, employers, and public stakeholders.
+          </p>
+        </div>
+
+        <div class="solution-grid">
+          <div class="feature-card card reveal">
+            <div class="icon-circle">🧠</div>
+            <h3>AI departure alerts</h3>
+            <p>
+              RouteWise tells commuters when to leave, not just where to go,
+              using real-time variability across the entire journey.
+            </p>
+          </div>
+
+          <div class="feature-card card reveal">
+            <div class="icon-circle">🚌</div>
+            <h3>Multimodal routing</h3>
+            <p>
+              Combines metro, bus, walking, and autos into one usable plan,
+              accounting for real transfer friction in Indian cities.
+            </p>
+          </div>
+
+          <div class="feature-card card reveal">
+            <div class="icon-circle">₹</div>
+            <h3>Auto fare estimates</h3>
+            <p>
+              Gives commuters greater predictability over last-mile cost and
+              reduces uncertainty around daily travel decisions.
+            </p>
+          </div>
+
+          <div class="feature-card card reveal">
+            <div class="icon-circle">📍</div>
+            <h3>India-first context layer</h3>
+            <p>
+              Designed for local commute patterns rather than a generic
+              San-Francisco-style routing logic applied globally.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">How it works</div>
+          <h2>A simple product experience, powered by a powerful data engine</h2>
+          <p>
+            RouteWise creates a better commute experience on the front end while
+            continuously building proprietary intelligence on the back end.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card card reveal">
+            <div class="step-number">1</div>
+            <h3>Observe</h3>
+            <p>
+              Users enter or repeat their commute journeys while RouteWise
+              captures route choices, mode-switches, travel times, and
+              real-world friction points.
+            </p>
+          </div>
+
+          <div class="step-card card reveal">
+            <div class="step-number">2</div>
+            <h3>Predict</h3>
+            <p>
+              The platform analyzes actual commute conditions to recommend the
+              best route and the right departure window for each user.
+            </p>
+          </div>
+
+          <div class="step-card card reveal">
+            <div class="step-number">3</div>
+            <h3>Monetize</h3>
+            <p>
+              Employers get commute insights and employee mobility support,
+              while cities and transit bodies gain access to richer movement
+              intelligence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT SHOWCASE -->
+    <section class="section">
+      <div class="container showcase-grid">
+        <div class="showcase-copy reveal">
+          <div class="eyebrow">Product experience</div>
+          <h2>Designed for the 8:03 AM decision, not the theoretical route</h2>
+          <p>
+            RouteWise is built around how commuters actually think: Which mode
+            should I take? When should I leave? How much will the last mile
+            cost? Will I make it on time without chaos?
+          </p>
+
+          <ul class="check-list">
+            <li>Real-time route recommendations across transport modes</li>
+            <li>Departure alerts tuned to actual traffic and network conditions</li>
+            <li>Auto fare visibility for last-mile confidence</li>
+            <li>Fast, mobile-first experience designed for busy commuters</li>
+          </ul>
+        </div>
+
+        <div class="showcase-image reveal">
+          <div class="image-card card">
+            <img src="routewise-hero.png" alt="RouteWise product mockup" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MOAT -->
+    <section id="moat" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Moat strategy</div>
+          <h2>The moat is proprietary commute data — not the routing algorithm</h2>
+          <p>
+            The long-term defensible asset is the richest real-world commute
+            dataset in India, continuously improved through usage and embedded
+            distribution.
+          </p>
+        </div>
+
+        <div class="moat-grid">
+          <div class="moat-card card reveal">
+            <div class="icon-circle">📲</div>
+            <h3>Opt-in SDK distribution</h3>
+            <p>
+              RouteWise embeds an opt-in SDK inside partner employer apps,
+              enabling passive commute data collection at scale without relying
+              only on standalone app growth.
+            </p>
+          </div>
+
+          <div class="moat-card card reveal">
+            <div class="icon-circle">🔁</div>
+            <h3>Data network effects</h3>
+            <p>
+              More commuters improve route intelligence. Better intelligence
+              improves the product. Better product drives more use — creating a
+              compounding feedback loop.
+            </p>
+          </div>
+
+          <div class="moat-card card reveal">
+            <div class="icon-circle">🏢</div>
+            <h3>B2B contract lock-in</h3>
+            <p>
+              Employer subscriptions and mobility dashboards create recurring
+              revenue and operational stickiness that a purely consumer app
+              cannot easily replicate.
+            </p>
+          </div>
+
+          <div class="moat-card card reveal">
+            <div class="icon-circle">🗺️</div>
+            <h3>Why Google won’t prioritize this</h3>
+            <p>
+              Hyperlocal Indian commute intelligence for employers and city
+              systems is too niche for a global consumer mapping product to
+              optimize deeply.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REGULATORY / GTM -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Go-to-market and regulatory path</div>
+          <h2>Win with partnerships, not asset-heavy execution</h2>
+          <p>
+            RouteWise avoids regulatory complexity by integrating with existing
+            licensed mobility ecosystems instead of trying to own the supply side.
+          </p>
+        </div>
+
+        <div class="gtm-grid">
+          <div class="gtm-card card reveal">
+            <h3>Namma Yatri partnership model</h3>
+            <p>
+              Rather than building its own auto-booking stack and dealing with
+              permit complexity, RouteWise partners with Namma Yatri’s licensed
+              cooperative structure through a revenue-share model.
+            </p>
+          </div>
+
+          <div class="gtm-card card reveal">
+            <h3>Consumer → employer wedge</h3>
+            <p>
+              The free consumer app acts as the top-of-funnel acquisition
+              engine. Employers are then upsold once enough of their workforce
+              already uses RouteWise in their daily commute.
+            </p>
+          </div>
+
+          <div class="gtm-card card reveal">
+            <h3>City data monetization</h3>
+            <p>
+              Aggregated commute intelligence can be licensed to transit
+              authorities and city bodies at ₹10L+ annually for planning and
+              service optimization.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARKET -->
+    <section class="section alt-bg">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Market opportunity</div>
+          <h2>A daily-use habit product with strong B2B monetization</h2>
+          <p>
+            RouteWise sits at the intersection of mobility, productivity, and
+            urban infrastructure intelligence.
+          </p>
+        </div>
+
+        <div class="market-grid">
+          <div class="market-card card reveal">
+            <h3>Consumer wedge</h3>
+            <div class="big-number">Daily</div>
+            <p>
+              Commuting is a high-frequency use case, giving RouteWise repeated
+              opportunities to build habit and gather differentiated data.
+            </p>
+          </div>
+
+          <div class="market-card card reveal">
+            <h3>B2B ACV</h3>
+            <div class="big-number">₹12L</div>
+            <p>
+              Annual contract value for a 100-employee firm at ₹100 per
+              employee per month under the CorpCommute model.
+            </p>
+          </div>
+
+          <div class="market-card card reveal">
+            <h3>Gov / Transit</h3>
+            <div class="big-number">₹10L+</div>
+            <p>
+              Annual licensing opportunity for commute intelligence products
+              sold to city and transit authorities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BUSINESS MODEL -->
+    <section id="business" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Business model</div>
+          <h2>Consumer habit on the front end, recurring B2B revenue on the back end</h2>
+          <p>
+            RouteWise fixes unit economics by making the consumer app free and
+            shifting monetization toward employers and institutional data buyers.
+          </p>
+        </div>
+
+        <div class="business-grid">
+          <div class="business-card card reveal">
+            <div class="icon-circle">👩‍💼</div>
+            <h3>CorpCommute subscription</h3>
+            <p>
+              Core revenue stream at ₹100 per employee per month, giving
+              employers better attendance visibility and more predictable
+              employee commute support.
+            </p>
+          </div>
+
+          <div class="business-card card reveal">
+            <div class="icon-circle">📊</div>
+            <h3>Commute analytics dashboard</h3>
+            <p>
+              Employers receive insight on commute burden, peak stress routes,
+              and workforce mobility patterns for policy and planning.
+            </p>
+          </div>
+
+          <div class="business-card card reveal">
+            <div class="icon-circle">🏛️</div>
+            <h3>Transit authority licensing</h3>
+            <p>
+              Aggregated anonymized commute intelligence can be sold to public
+              stakeholders to improve planning and service design.
+            </p>
+          </div>
+
+          <div class="business-card card reveal">
+            <div class="icon-circle">🤝</div>
+            <h3>Partner revenue share</h3>
+            <p>
+              Mobility ecosystem integrations such as Namma Yatri create
+              additional monetization without requiring direct regulatory exposure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section id="impact" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Impact</div>
+          <h2>Why this matters for commuters, companies, and cities</h2>
+          <p>
+            RouteWise creates value across all three sides of the ecosystem —
+            individual users, enterprise buyers, and urban mobility systems.
+          </p>
+        </div>
+
+        <div class="impact-grid">
+          <div class="impact-left">
+            <div class="impact-metric card reveal">
+              <span class="impact-number">47 min</span>
+              <span class="impact-label">Potential time saved in the example user journey</span>
+            </div>
+            <div class="impact-metric card reveal">
+              <span class="impact-number">Better</span>
+              <span class="impact-label">Arrival quality, reliability, and commuter wellbeing</span>
+            </div>
+            <div class="impact-metric card reveal">
+              <span class="impact-number">Smarter</span>
+              <span class="impact-label">Planning signal for cities and transit authorities</span>
+            </div>
+          </div>
+
+          <div class="impact-right card reveal">
+            <h3>Why RouteWise wins</h3>
+            <ul class="advantage-list">
+              <li><strong>India-first product design:</strong> built for local multimodal commute reality</li>
+              <li><strong>Data defensibility:</strong> proprietary crowdsourced commute data compounds over time</li>
+              <li><strong>B2B monetization clarity:</strong> stronger economics than ad-led consumer navigation</li>
+              <li><strong>Regulatory pragmatism:</strong> integrates with licensed partners instead of fighting policy</li>
+              <li><strong>Habit + contract flywheel:</strong> daily usage drives both retention and enterprise sales</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="section cta-section">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div class="eyebrow">Launch</div>
+          <h2>Give commuters their mornings back</h2>
+          <p>
+            RouteWise is building the commute intelligence layer Indian cities
+            have been missing. Join the waitlist, partner with us, or explore
+            how RouteWise can power smarter urban mobility.
+          </p>
+
+          <div class="cta-buttons">
+            <a href="#" class="btn btn-primary">Join Waitlist</a>
+            <a href="#" class="btn btn-secondary">Partner With RouteWise</a>
+          </div>
+
+          <div class="cta-note">
+            First 1,000 users on the waitlist: 3 months Premium free.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong>RouteWise v3</strong><br />
+        The commute intelligence layer cities were missing.
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Top</a>
+        <a href="#solution">Solution</a>
+        <a href="#business">Business</a>
+        <a href="#cta">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
