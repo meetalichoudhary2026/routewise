@@ -1,3 +1,4 @@
+// script.js
 const menuToggle = document.getElementById("menuToggle");
 const mobileMenu = document.getElementById("mobileMenu");
 const mobileLinks = document.querySelectorAll(".mobile-menu a");
@@ -20,6 +21,7 @@ const observer = new IntersectionObserver(
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
       }
     });
   },
